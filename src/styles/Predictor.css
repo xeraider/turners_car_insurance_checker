@@ -1,0 +1,87 @@
+
+.predictor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    max-width: 700px;
+    margin: auto;
+    padding: 3rem 0;
+    font-family: Arial, sans-serif;
+}
+
+.predictor h1 {
+    color: #0073cf;
+    font-family: "Book Antiqua", sans-serif;
+    font-size: 2.5rem;
+    border-radius: 20px;
+    margin: 0;
+}
+
+.predictor p {
+    text-align: center;
+    margin: 0;
+}
+
+.upload-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+    padding: 2rem;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    box-sizing: border-box;
+}
+
+.car-preview {
+    width: 100%;
+    max-width: 800px;
+    object-fit: contain;
+    background: #f5f7fa;
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+}
+
+.upload-container input {
+    max-width: 100%;
+    color: #555;
+}
+
+.upload-container button {
+    background: #0073cf;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.upload-container button:hover:not(:disabled) {
+    background: #005ba3;
+}
+
+.upload-container button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.prediction-result {
+    width: 100%;
+    padding: 1.5rem;
+    background: #f0f7ff;
+    border: 1px solid #0073cf;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.prediction-result h2 {
+    color: #0073cf;
+}
+
+

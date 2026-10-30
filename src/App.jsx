@@ -1,4 +1,6 @@
+
 {/* Components */}
+import Predictor from "./components/Predictor.jsx";
 import Navbar from "./components/Navbar.jsx";
 
 {/* Styles */}
@@ -9,11 +11,11 @@ const App = () => {
   return (
       <>
         <header className="app-header">
-          <Navbar />
+            <Navbar />
         </header>
 
         <main className="app-main">
-
+            <Predictor />
         </main>
       </>
   )
